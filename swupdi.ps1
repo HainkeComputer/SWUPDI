@@ -17,7 +17,7 @@ return;
 }
 Write-Host "Ich habe Admin recht!"
 
-New-Item -Name "Testordner“ -ItemType Directory -Path "C:\TEMP"
+New-Item -Name "Jan“ -ItemType Directory -Path "C:\TEMP"
 
 Write-Host -NoNewLine 'Press any key to continue...';
 $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
